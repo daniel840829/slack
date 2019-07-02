@@ -87,7 +87,7 @@ type Attachment struct {
 	Footer     string `json:"footer,omitempty"`
 	FooterIcon string `json:"footer_icon,omitempty"`
 
-	ResponseURL string `json:"response_url",omitempty`
+	ResponseURL string `json:"response_url,omitempty"`
 
 	Ts json.Number `json:"ts,omitempty"`
 }
